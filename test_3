@@ -1,0 +1,6 @@
+graph1 = node1 + node2
+graph1 = graph1 - node1
+graph2 = graph1 - node1
+
+graph1, graph2 = (graph)node1, (graph)node2
+node1 = input()

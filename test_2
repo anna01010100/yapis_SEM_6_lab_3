@@ -1,0 +1,27 @@
+find_path_between_nodes(gr, n1, n2):
+****new_graph = BFS(gr, n1, n2)
+****return(new_graph)
+
+find_min_way(gr, n1):
+****new_graph = Deikstra(gr, n1)
+****return(new_graph)
+
+find_round_path(gr):
+****new_graph = DFS(gr)
+****return(new_graph)
+
+
+graph1 = (node1 + node2) + (node2 + node3) + (node2 + node4) + (node1 + node4) + node5
+graph2 = (node1 + node2) + (node2 + node4) + (node2+ node5) + (node4 + node5) + (node1 + node4)
+
+tensor_graph = graph1 * graph2
+
+show(tensor_graph)
+
+union_graph = graph1 + graph2
+
+show(union_graph)
+
+show(find_path_between_nodes(graph1, node1, node5))
+show(find_min_way(tensor_graph, node1))
+show(find_round_path(graph2))

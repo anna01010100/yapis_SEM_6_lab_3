@@ -1,0 +1,9 @@
+for(i:graph1):
+****graph_neighbour_nodes = make_neighbor_graph(i)
+
+if(in_graph(graph_neighbour_nodes, graph1)):
+****show('all_the_neighbours_are_in_graph')
+
+else:
+****show('all_the_neighbours_are_not_in_graph')
+
